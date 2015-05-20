@@ -4,12 +4,14 @@ To start,
 
 * run the coordinate WebSocket ICE server by 
 
-    $ node websocket-server.js 
+    $ cd websocketServer
+    $ node server.js
     
-* run a simple web server, something like:
+* run the HTTP server for serving the testpage
 
-    $ python -m SimpleHTTPServer
-    
+    $ cd httpServer
+    $ node server.js
+
 * use the latest Chrome or the self build Chrome to browser http://localhost:8000
 
 NOTE:
